@@ -2,7 +2,7 @@
 App({
   onLaunch: function () {
     // console.log('3333333344')
-    console.log('55')
+    console.log('66')
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
@@ -16,6 +16,7 @@ App({
     })
     // 获取用户信息
     wx.getSetting({
+      console.log('66666666666lzy7')
       success: res => {
         console.log('Im jasonlam.')
         if (res.authSetting['scope.userInfo']) {
